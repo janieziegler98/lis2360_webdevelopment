@@ -95,3 +95,16 @@ iframe {
 	padding: 8px;
 	margin: 8px;
 }
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #fff; 
+	overflow: hidden; 
+}
+
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #FFF;
+
+}
