@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body{
+        margin: 0px;
+        padding: 0px;
+          font-family: Comic Sans;
+        
+}
+p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 20px 0;
+}
+h4 {
+  padding: 20px 0;
+  font-weight: bold;
+}
+table {
+	border: solid #62B0FF 3px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #62B0FF 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #62B0FF;
+	text-align: center;
+	padding: 6px;
+	border: solid #62B0FF 1px;
+}
+a:link {
+	color: #1B307F;
+        font-size: 20px;
+}
+a:visited {
+	color: #62B0FF;
+        font-size: 20px;
+}
+a:hover {
+	color: #1B307F;
+	text-decoration: none;
+}
+{
+        background: url(images1/unknown-4.jpg) no-repeat center top fixed;     
+}
+
+#splash{
+        height: 1000px;
+        background: url(images1/unknown-4.jpg) no-repeat center top fixed;
+        background-size: cover;
+
+        
+}
+
+
+#overview{
+        background-color: #1B307F;
+        height: 1000px;
+        color: #fff;
+        font-size: 14px;
+        
+}
+
+#media{
+       
+    
+    padding: 40px 0 60px 0;	
+    background: url(images1/ocean-background-png-hd-ocean-floor-background-png-1280.png) no-repeat center top fixed;
+	color: #000000;
+    font-style: italic;
+ 
+        
+}
+
+
+#references{
+        background-color: #fff;
+        height: 800px;
+        
+}
+
+        #footer{
+  	background-color: #696969;
+  	color: #fff;
+  	padding: 20px 0;
+        font-size: 20px;
+
+}
+/* ---------------- CONTAINER STYLES ----------------- */
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+
+ul#menu {
+	list-style: none; 
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; 
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 100px 20px 100px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+
+}
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+  width: 100%;
+  padding-top: 200px; /* provides a lot of space above title to view the background image */
+  color: #b4e7ff;
+  text-align: center;
+}
+#title-page h1 {
+  font-family: comic-sans; /* Amaranth is a Google Font - see link in head of index.html */
+  font-size: 70px; 	
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+}
+#title-page h3 {
+  font-size: 3em;
+  font-style: italic;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #000000;
+}
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		/* centers the color palette table */
+}
+#credits p {
+  font-size: .8em;
+  margin: 10px 0;
+}
+
+/* ---------------------- MISC -----------------------------*/
+
+.fltright{
+	float:right;
+	margin: 20px;
+}
+.fltleft{
+	float:left;
+	margin: 20px 20px 20px 0;
+}
+
+ 
